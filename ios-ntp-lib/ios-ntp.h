@@ -5,6 +5,7 @@
   ║ Copyright 2010 Ramsay Consulting. All rights reserved.                                           ║
   ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝*/
 
+#import "NTPLogging.h"
 #import "NetAssociation.h"
 #import "NetworkClock.h"
 #import "NSDate+NetworkClock.h"
