@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/5ecret5tar/ios-ntp.git', :tag => 'v1.0.46' }
   s.author       = { 'Gavin Eadie' => 'https://github.com/gavineadie' }
   s.ios.deployment_target = '7.0'
-  s.source_files = 'ios-ntp-lib/*'
-  s.prefix_header_contents = '#import "ios-ntp.pch"'
+  s.source_files = 'ios-ntp-lib/*.{h,m}'
   s.resources = 'ios-ntp-rez/*.hosts',
   s.framework = 'CFNetwork'
   s.dependency 'CocoaAsyncSocket', '~>7.4.1'
